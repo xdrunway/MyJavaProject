@@ -13,7 +13,7 @@ class LinearSearch {
     public static void main(String[] args) {
         int[] arr = { 3, 4, 1, 7, 5 };
         int n = arr.length;
-        int x = 4;
+        int x = 7;
         int index = search(arr, n, x);
         if (index == -1)
             System.out.println("Element is not present in the array");
